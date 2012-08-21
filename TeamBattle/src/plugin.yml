@@ -1,0 +1,11 @@
+name: TeamBattle
+author: Jamy
+main: be.jamy.teambattle.TeamBattle
+version: 0.1a
+
+commands:
+   tb:
+      description: Main TeamBattle user commands
+      usage: /tb <action> [Params]
+      permission: TeamBattle.user
+      permission-message: You don't have permissions for TeamBattle!
