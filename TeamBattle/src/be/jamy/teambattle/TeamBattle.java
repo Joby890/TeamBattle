@@ -22,8 +22,13 @@ public class TeamBattle extends JavaPlugin {
     @Override
     public void onEnable() {
         command = new TeamBattleCommandListener(this);
+        this.getServer().getPluginManager().registerEvents(new TeamBattleListener(this), this);
+        try {
         getCommand("tb").setExecutor(command);
         getCommand("tbadmin").setExecutor(command);
+        } catch (Exception e) {
+            
+        }
         log.info("TeamBattle has been enabled!");
     }
     
