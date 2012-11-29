@@ -1,7 +1,8 @@
 name: TeamBattle
 author: Jamy
 main: be.jamy.teambattle.TeamBattle
-version: 0.1a
+version: 0.1b
+softdepend: tagAPI
 
 commands:
    tb:
