@@ -4,12 +4,16 @@
  */
 package be.jamy.teambattle;
 
+import java.util.HashMap;
+
 /**
  *
  * @author Jamy
  */
 public class Team extends TeamBattle {
     
-    // here will be all of the hashmap for teams...
+   public static HashMap<String, Integer> PlayerTeam = new HashMap<String, Integer>();
+   public static HashMap<Integer, String> TeamColor = new HashMap<Integer, String>();
+   public static HashMap<String, Integer> CurrentTeams = new HashMap<String, Integer>();
     
 }
