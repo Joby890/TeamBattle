@@ -21,6 +21,10 @@ public class TeamBattle extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        if (getServer().getPluginManager().getPlugin("tagAPI").isEnabled()) {
+            log.info("tagAPI found enabling!");
+            //RegistertagAPI();
+        }
         command = new TeamBattleCommandListener(this);
         this.getServer().getPluginManager().registerEvents(new TeamBattleListener(this), this);
         try {
