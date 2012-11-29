@@ -12,7 +12,7 @@ import org.bukkit.Bukkit;
 
 /**
  *
- * @author Jamy
+ * @author Jamy, Joby
  */
 public class TeamBattle extends JavaPlugin {
     public static Logger log = Bukkit.getLogger();
