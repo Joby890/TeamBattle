@@ -8,6 +8,8 @@ package be.jamy.teambattle;
  *
  * @author Jamy
  */
-public class Team {
+public class Team extends TeamBattle {
+    
+    // here will be all of the hashmap for teams...
     
 }
