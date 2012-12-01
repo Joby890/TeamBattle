@@ -20,5 +20,4 @@ public class TeamBattleTagAPIListener implements Listener {
     	String color = Team.TeamColor.get(team);
     	e.setTag(color + e.getNamedPlayer().getName());
     }
-    
 }
