@@ -45,7 +45,7 @@ public class TeamBattle extends JavaPlugin {
     private void DataCheck() {
         File data = new File("./plugins/TeamBattle/data.yml");
         if(data.exists()) {
-        	FileConfiguration c = this.getConfig();
+        	/*FileConfiguration c = this.getConfig();
         	if(c.contains("Team.1")) {
         		ConfigurationSection s =c.getConfigurationSection("Teams.1");
         		String Team1 = (String) s.get("Team.id");
@@ -73,7 +73,7 @@ public class TeamBattle extends JavaPlugin {
         		Team.CurrentTeams.put(Team1, 4);
         		String s1 = (String) c.get("Teams.4.color");
         		Team.TeamColor.put(4, s1);
-        	}
+        	}*/
         } else {
         	createdataconfig();
         }
