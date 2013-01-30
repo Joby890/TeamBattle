@@ -1,1 +1,5 @@
-/TeamBattle/nbproject/private/
+/.settings
+/bin
+/.classpath
+/.project
+/target
